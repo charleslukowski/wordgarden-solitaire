@@ -1,0 +1,11 @@
+{
+  "name": "Wordgarden — Solitaire Associations",
+  "short_name": "Wordgarden",
+  "description": "A calm, ad-free word association solitaire game.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#103d37",
+  "theme_color": "#123f39",
+  "icons": [{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
