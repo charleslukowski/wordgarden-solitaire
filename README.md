@@ -4,9 +4,9 @@ An ad-free, mobile-first word association solitaire game inspired by the categor
 
 ## Play
 
-Open `index.html` in a browser or visit the hosted page. Build four category stacks by sorting their six word cards. Only the exposed card in each tableau column and the top card in waste are playable. Draw cards from stock, move cards between columns to uncover hidden words, or spend the free Joker to auto-sort one exposed card. Every draw, category guess, and tableau move uses a turn; recycling waste, hints, and undo are free. The board and level are saved on that device.
+Open `index.html` in a browser or visit the hosted page. Build four category stacks; stack sizes vary from four to eight cards. Only the exposed card in each tableau column and the top card in waste are playable. Draw cards from stock, move cards between columns to uncover hidden words, or spend the free Joker to auto-sort one exposed card. Every draw, category guess, and tableau move uses a turn; recycling waste, hints, and undo are free. Later levels have tighter move limits and more buried cards. The board and level are saved on that device.
 
-Each deal includes 24 words: 16 in four tableau columns (three face-down and one exposed in each) plus eight in the draw pile. Category labels are shown to make the game easier to learn on a phone.
+Each deal includes 24 words: 20 in four tableau columns (four face-down and one exposed in each) plus four in the draw pile. Level 1 is an introduction; later levels use a 50-turn budget and trickier association categories.
 
 ## Publish with GitHub Pages
 
