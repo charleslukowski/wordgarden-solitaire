@@ -1,4 +1,4 @@
-const CACHE='wordgarden-v9';
+const CACHE='wordgarden-v10';
 const FILES=['./','./index.html','./manifest.webmanifest','./icon.svg'];
 
 self.addEventListener('install',event=>event.waitUntil(
@@ -7,10 +7,8 @@ self.addEventListener('install',event=>event.waitUntil(
 
 self.addEventListener('activate',event=>event.waitUntil(
   caches.keys()
-    .then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key))))
+    .then(keys=>Promise.all(keys.filter(key=>key.startsWith('wordgarden-')&&key!==CACHE).map(key=>caches.delete(key))))
     .then(()=>self.clients.claim())
-    .then(()=>self.clients.matchAll({type:'window',includeUncontrolled:true}))
-    .then(clients=>Promise.all(clients.filter(client=>client.url.startsWith(self.registration.scope)).map(client=>client.navigate(client.url))))
 ));
 
 self.addEventListener('fetch',event=>{
