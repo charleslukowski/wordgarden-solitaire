@@ -1,4 +1,4 @@
-const CACHE='wordgarden-v25';
+const CACHE='wordgarden-v26';
 const FILES=['./','./index.html','./manifest.webmanifest','./icon.svg'];
 
 self.addEventListener('install',event=>event.waitUntil(
