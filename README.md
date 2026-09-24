@@ -4,7 +4,7 @@ An ad-free, mobile-first word association solitaire game inspired by the categor
 
 ## Play
 
-Each hard level has 15 category families with varied sizes. The five crown spaces above the columns hold category cards; complete a family to free its crown. Five free cells at the top temporarily hold exposed cards, like FreeCell. The other category cards are mixed into the draw pile. Only exposed column cards, the top waste card, and held free-cell cards can be played. Draws, category placements, matches, wrong guesses, tableau moves, free-cell moves, and hints spend turns. Undo costs a turn without refunding the action; recycling waste is free. The one-use Joker sorts a playable word for free. The board and level are saved on that device.
+Each hard level has 15 category crown cards embedded in the five solitaire stacks. Every crown shows a category and fills as matching item cards are collected. Fill every crown to win. The five spaces at the top work like FreeCell: hold an exposed card there temporarily, then play it later. Only exposed column cards, the top waste card, and held free-cell cards can be played. Draws, matches, wrong guesses, tableau moves, free-cell moves, and hints spend turns. Undo costs a turn without refunding the action; recycling waste is free. The one-use Joker sorts a playable word for free. The board and level are saved on that device.
 
 Hard mode starts at Level 4 and contains six substantial rounds with 90 unique category families, drawn from the existing hard set plus 18 new families. Group sizes vary from 3 to 8 items. After the sixth level, the game offers a deliberate replay instead of silently repeating categories.
 
