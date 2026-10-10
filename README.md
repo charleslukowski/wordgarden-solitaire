@@ -4,9 +4,15 @@ An ad-free, mobile-first word association solitaire game inspired by the categor
 
 ## Play
 
-Each hard level has 15 category crown cards embedded in the five solitaire stacks. Every crown shows a category and fills as matching item cards are collected. Fill every crown to win. The five spaces at the top work like FreeCell: hold an exposed card there temporarily, then play it later. Only exposed column cards, the top waste card, and held free-cell cards can be played. Draws, matches, wrong guesses, tableau moves, free-cell moves, and hints spend turns. Undo costs a turn without refunding the action; recycling waste is free. The one-use Joker sorts a playable word for free. The board and level are saved on that device.
+Each level hides a few categories. Every category has a crown card and a set of word cards, all shuffled into the columns and the draw pile.
 
-Hard mode starts at Level 4 and contains six substantial rounds with 90 unique category families, drawn from the existing hard set plus 18 new families. Group sizes vary from 3 to 8 items. After the sixth level, the game offers a deliberate replay instead of silently repeating categories.
+- Only the bottom card of each column can be played. Moving it uncovers the face-down card above.
+- Tap a crown card to put it in an empty crown slot at the top, then tap matching word cards to collect them. A full category clears and frees its slot.
+- A word card can go on another word from the same category, or into an empty column. A run of same-category cards moves together.
+- Tap the draw pile to turn over a card. Every draw and move costs one move; turning the pile over is free. Undo costs a move, and the Joker plays one card for free.
+- Clear every category before the moves run out.
+
+There are six levels. They start with 3 categories and 3 crown slots and build to 5 categories competing for 3–4 slots with fewer spare moves. Each deal is checked by a built-in solver before it is shown, and the move budget is the solver's move count plus that level's spare moves, so every deal can be won.
 
 ## Publish with GitHub Pages
 
